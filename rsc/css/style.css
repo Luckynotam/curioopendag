@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: Fellix-Bold;
+    src: url("../fonts/Fellix-Bold.ttf");
+}
+@font-face {
+    font-family: Fellix-Regular;
+    src: url("../fonts/Fellix-Regular.ttf");
+}
+
+@media screen and (min-width: 360px) and (max-width: 800px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        background-color: #014c35;
+
+
+
+    }
+    header img {
+        width: 25%;
+        height: 25%;
+        margin-top: 2.5%;
+
+    };
+    }
+    header h1 {
+        font-family: Fellix-Bold;
+        color: #ffcc00;
+    }
+    .top-container {
+        width: 100%;
+        display: flex;
+    }
+    .left-img{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        background-color: #014c35;
+
+    }
+    .left-img img {
+       height: 40%;
+    }
+    .right-text{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        background-color: #FFCC00FF;
+    }
+    .right-text h1, .right-text p {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .right-text h1 {
+        font-family: Fellix-Bold;
+        font-size: 15px;
+        color: #014C35FF;
+    }
+    .right-text p {
+        font-family: Fellix-Regular;
+        font-size: 10px;
+        color: #014C35FF;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
